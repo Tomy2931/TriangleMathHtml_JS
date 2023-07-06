@@ -1,0 +1,91 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+html{font-size: 62.5%;}
+body{
+    background-color: black;
+}
+.ayuda{
+    color: red;
+    font-size: 4rem;
+    position: absolute;
+    left: 10px;
+    top: 10px;
+}
+.ayuda:hover{
+    cursor: pointer;
+}
+figure{
+    display: flex;
+    justify-content: center;
+}
+.triangulo{
+    margin-top: 100px;
+    height: 400px;
+}
+.regla{
+    rotate: 90deg;
+    height: 400px;
+    position: absolute;
+    top: 70px;
+    left: -100px;
+    pointer-events: none;
+}
+.lado1,.lado2,.base,.altura{
+    color: green;
+    font-size: 3rem;
+    cursor: pointer;
+}
+.lado1:hover,.lado2:hover,.base:hover,.altura:hover{
+    text-decoration:underline;
+    font-size: 3.1rem;
+}
+.lado1{
+    position: absolute;
+    top: 300px;
+    left: 640px;
+    rotate: -54deg;
+}
+.lado2{
+    position: absolute;
+    top: 270px;
+    right: 620px;
+    rotate: 58deg; 
+}
+.base{
+    position: absolute;
+    top: 500px;
+    left: 820px;
+}
+.altura{
+    position: absolute;
+    top: 290px;
+    left: 130px;
+    rotate: -90deg;
+}
+h1{
+    margin-top: 30px;
+    font-size: 3.5rem;
+    color: blue
+    
+}
+button{
+    width: 120px;
+    height: 50px;
+    margin-left: 15px;
+    margin-top: 6px;
+    border-radius: 15px;
+    color: red;
+    font-size: 1.6rem;
+    background-color: rgb(0, 21, 251);
+}
+button:hover{
+    cursor: pointer;
+    color: rgb(255, 53, 53);
+    background-color: rgba(0, 21, 255, 0.734);
+    
+
+    
+}
